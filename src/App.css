@@ -1,0 +1,46 @@
+.App {
+  padding-top: 36px;
+  text-align: center;
+  background-color: rgba(206, 156, 156, 0.5);
+  /* background-image: url(assets/film.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+}
+
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.MoviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.MoviesList-item {
+  margin-bottom: 24px;
+  width: 30%;
+  padding: 20px;
+}
+body {
+  height: 100vh;
+  position: relative;
+}
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body * {
+  z-index: 1;
+}
+.title {
+  position: relative;
+}
